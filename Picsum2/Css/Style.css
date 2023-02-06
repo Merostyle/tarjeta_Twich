@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px ;
+}
+#content {
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+.card {
+    margin: 0 0 0 30px;
+}
+
+.carda {
+    
+    text-align: center;
+    display: block;
+    color: black;
+    background-color: rgb(149, 240, 240);
+}
