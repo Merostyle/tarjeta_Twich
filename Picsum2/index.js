@@ -12,10 +12,10 @@
             document.getElementById("content").innerHTML += 
             `<div class="card" style="width: 18rem;">
             <img src="${item.download_url}" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="cardbody">
               <h5 class="card-title">${item.author}</h5>
-              <h6 class="card-subtitle mb-2 text-muted">${item.id}</h6>
-              <a href="${item.url}" class="carda">Ver Mas</a>
+              <h6 class="card-subtitle mb-2 text-muted">ID:  ${item.id}</h6>
+              <a href="${item.url}" class="card-a">Ver Mas</a>
             </div>
           </div>`;
         }
